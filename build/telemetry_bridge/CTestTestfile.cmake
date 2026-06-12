@@ -1,0 +1,12 @@
+# CMake generated Testfile for 
+# Source directory: /workspace/src/telemetry_bridge
+# Build directory: /workspace/build/telemetry_bridge
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(latency_test "/usr/bin/python3" "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/workspace/build/telemetry_bridge/test_results/telemetry_bridge/latency_test.gtest.xml" "--package-name" "telemetry_bridge" "--output-file" "/workspace/build/telemetry_bridge/ament_cmake_gtest/latency_test.txt" "--command" "/workspace/build/telemetry_bridge/latency_test" "--gtest_output=xml:/workspace/build/telemetry_bridge/test_results/telemetry_bridge/latency_test.gtest.xml")
+set_tests_properties(latency_test PROPERTIES  LABELS "gtest" REQUIRED_FILES "/workspace/build/telemetry_bridge/latency_test" TIMEOUT "60" WORKING_DIRECTORY "/workspace/build/telemetry_bridge" _BACKTRACE_TRIPLES "/opt/ros/foxy/share/ament_cmake_test/cmake/ament_add_test.cmake;118;add_test;/opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest_test.cmake;86;ament_add_test;/opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake;93;ament_add_gtest_test;/workspace/src/telemetry_bridge/CMakeLists.txt;57;ament_add_gtest;/workspace/src/telemetry_bridge/CMakeLists.txt;0;")
+add_test(monitor_test "/usr/bin/python3" "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/workspace/build/telemetry_bridge/test_results/telemetry_bridge/monitor_test.gtest.xml" "--package-name" "telemetry_bridge" "--output-file" "/workspace/build/telemetry_bridge/ament_cmake_gtest/monitor_test.txt" "--command" "/workspace/build/telemetry_bridge/monitor_test" "--gtest_output=xml:/workspace/build/telemetry_bridge/test_results/telemetry_bridge/monitor_test.gtest.xml")
+set_tests_properties(monitor_test PROPERTIES  LABELS "gtest" REQUIRED_FILES "/workspace/build/telemetry_bridge/monitor_test" TIMEOUT "60" WORKING_DIRECTORY "/workspace/build/telemetry_bridge" _BACKTRACE_TRIPLES "/opt/ros/foxy/share/ament_cmake_test/cmake/ament_add_test.cmake;118;add_test;/opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest_test.cmake;86;ament_add_test;/opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake;93;ament_add_gtest_test;/workspace/src/telemetry_bridge/CMakeLists.txt;60;ament_add_gtest;/workspace/src/telemetry_bridge/CMakeLists.txt;0;")
+subdirs("telemetry_bridge__py")
+subdirs("gtest")

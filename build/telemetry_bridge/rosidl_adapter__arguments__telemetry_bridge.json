@@ -1,0 +1,7 @@
+{
+  "package_name": "telemetry_bridge",
+  "non_idl_tuples": [
+    "/workspace/src/telemetry_bridge:../msg/TelemetryState.msg",
+    "/workspace/src/telemetry_bridge:../msg/LatencyStats.msg"
+  ]
+}

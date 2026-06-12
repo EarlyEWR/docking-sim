@@ -1,0 +1,83 @@
+[0.000000] (-) TimerEvent: {}
+[0.000046] (telemetry_bridge) JobQueued: {'identifier': 'telemetry_bridge', 'dependencies': OrderedDict()}
+[0.000279] (telemetry_bridge) JobStarted: {'identifier': 'telemetry_bridge'}
+[0.008060] (telemetry_bridge) JobProgress: {'identifier': 'telemetry_bridge', 'progress': 'cmake'}
+[0.008594] (telemetry_bridge) JobProgress: {'identifier': 'telemetry_bridge', 'progress': 'build'}
+[0.009015] (telemetry_bridge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/build/telemetry_bridge', '--', '-j16', '-l16'], 'cwd': '/workspace/build/telemetry_bridge', 'env': OrderedDict([('HOSTNAME', '9b16b8502ee9'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/workspace'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DOCKER_TEST_RUN', '1'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('PWD', '/workspace/build/telemetry_bridge'), ('LC_ALL', 'C.UTF-8'), ('BUILD_TESTING', 'ON'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.052879] (telemetry_bridge) StdoutLine: {'line': b'[  7%] Built target gtest_main\n'}
+[0.053022] (telemetry_bridge) StdoutLine: {'line': b'[  7%] Built target gtest\n'}
+[0.053061] (telemetry_bridge) StdoutLine: {'line': b'[  9%] Built target telemetry_bridge__cpp\n'}
+[0.054139] (telemetry_bridge) StdoutLine: {'line': b'[ 17%] Built target telemetry_bridge__rosidl_generator_c\n'}
+[0.067270] (telemetry_bridge) StdoutLine: {'line': b'[ 21%] Built target latency_test\n'}
+[0.067774] (telemetry_bridge) StdoutLine: {'line': b'[ 28%] Built target telemetry_bridge__rosidl_typesupport_cpp\n'}
+[0.068017] (telemetry_bridge) StdoutLine: {'line': b'[ 36%] Built target telemetry_bridge__rosidl_typesupport_introspection_cpp\n'}
+[0.068616] (telemetry_bridge) StdoutLine: {'line': b'[ 44%] Built target telemetry_bridge__rosidl_typesupport_fastrtps_cpp\n'}
+[0.068971] (telemetry_bridge) StdoutLine: {'line': b'[ 51%] Built target telemetry_bridge__rosidl_typesupport_c\n'}
+[0.069541] (telemetry_bridge) StdoutLine: {'line': b'[ 59%] Built target telemetry_bridge__rosidl_typesupport_introspection_c\n'}
+[0.085314] (telemetry_bridge) StdoutLine: {'line': b'[ 67%] Built target telemetry_bridge__rosidl_typesupport_fastrtps_c\n'}
+[0.099273] (telemetry_bridge) StdoutLine: {'line': b'[ 67%] Built target telemetry_bridge\n'}
+[0.099826] (-) TimerEvent: {}
+[0.114603] (telemetry_bridge) StdoutLine: {'line': b'[ 69%] Built target telemetry_bridge__py\n'}
+[0.121424] (telemetry_bridge) StdoutLine: {'line': b'Scanning dependencies of target telemetry_bridge_nodes\n'}
+[0.131753] (telemetry_bridge) StdoutLine: {'line': b'[ 75%] Built target telemetry_bridge__python\n'}
+[0.131966] (telemetry_bridge) StdoutLine: {'line': b'[ 76%] Building CXX object CMakeFiles/telemetry_bridge_nodes.dir/workspace/src/UdpBridgeNode.cpp.o\n'}
+[0.148279] (telemetry_bridge) StdoutLine: {'line': b'[ 88%] Built target telemetry_bridge__rosidl_typesupport_introspection_c__pyext\n'}
+[0.148409] (telemetry_bridge) StdoutLine: {'line': b'[ 88%] Built target telemetry_bridge__rosidl_typesupport_c__pyext\n'}
+[0.148454] (telemetry_bridge) StdoutLine: {'line': b'[ 88%] Built target telemetry_bridge__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.199927] (-) TimerEvent: {}
+[0.300083] (-) TimerEvent: {}
+[0.400245] (-) TimerEvent: {}
+[0.500404] (-) TimerEvent: {}
+[0.600568] (-) TimerEvent: {}
+[0.700728] (-) TimerEvent: {}
+[0.800894] (-) TimerEvent: {}
+[0.901071] (-) TimerEvent: {}
+[1.001243] (-) TimerEvent: {}
+[1.101414] (-) TimerEvent: {}
+[1.201592] (-) TimerEvent: {}
+[1.301758] (-) TimerEvent: {}
+[1.401916] (-) TimerEvent: {}
+[1.502084] (-) TimerEvent: {}
+[1.602256] (-) TimerEvent: {}
+[1.702414] (-) TimerEvent: {}
+[1.802567] (-) TimerEvent: {}
+[1.902720] (-) TimerEvent: {}
+[2.002885] (-) TimerEvent: {}
+[2.103041] (-) TimerEvent: {}
+[2.203212] (-) TimerEvent: {}
+[2.303365] (-) TimerEvent: {}
+[2.403513] (-) TimerEvent: {}
+[2.503668] (-) TimerEvent: {}
+[2.603829] (-) TimerEvent: {}
+[2.690617] (telemetry_bridge) StdoutLine: {'line': b'[ 90%] Linking CXX shared library libtelemetry_bridge_nodes.so\n'}
+[2.703895] (-) TimerEvent: {}
+[2.804024] (-) TimerEvent: {}
+[2.904182] (-) TimerEvent: {}
+[2.913063] (telemetry_bridge) StdoutLine: {'line': b'[ 92%] Built target telemetry_bridge_nodes\n'}
+[2.920505] (telemetry_bridge) StdoutLine: {'line': b'Scanning dependencies of target monitor_test\n'}
+[2.927639] (telemetry_bridge) StdoutLine: {'line': b'[ 94%] Building CXX object CMakeFiles/monitor_test.dir/workspace/src/tests/monitor_test.cpp.o\n'}
+[2.933056] (telemetry_bridge) StderrLine: {'line': b'/workspace/src/tests/monitor_test.cpp:1:5: error: expected constructor, destructor, or type conversion before \xe2\x80\x98(\xe2\x80\x99 token\n'}
+[2.933171] (telemetry_bridge) StderrLine: {'line': b'    1 | TEST(StateMonitorTest, DetectsGapsAndStalePackets)\n'}
+[2.933226] (telemetry_bridge) StderrLine: {'line': b'      |     ^\n'}
+[2.933875] (telemetry_bridge) StderrLine: {'line': b'make[2]: *** [CMakeFiles/monitor_test.dir/build.make:63: CMakeFiles/monitor_test.dir/workspace/src/tests/monitor_test.cpp.o] Error 1\n'}
+[2.934024] (telemetry_bridge) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/monitor_test.dir/all] Error 2\n'}
+[2.934055] (telemetry_bridge) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[2.937358] (telemetry_bridge) StdoutLine: {'line': b'Scanning dependencies of target udp_bridge\n'}
+[2.949076] (telemetry_bridge) StdoutLine: {'line': b'[ 96%] Building CXX object CMakeFiles/udp_bridge.dir/workspace/src/main.cpp.o\n'}
+[3.004249] (-) TimerEvent: {}
+[3.104417] (-) TimerEvent: {}
+[3.204585] (-) TimerEvent: {}
+[3.304752] (-) TimerEvent: {}
+[3.404918] (-) TimerEvent: {}
+[3.505079] (-) TimerEvent: {}
+[3.605253] (-) TimerEvent: {}
+[3.705421] (-) TimerEvent: {}
+[3.805605] (-) TimerEvent: {}
+[3.895313] (telemetry_bridge) StdoutLine: {'line': b'[ 98%] Linking CXX executable udp_bridge\n'}
+[3.905676] (-) TimerEvent: {}
+[3.984414] (telemetry_bridge) StdoutLine: {'line': b'[ 98%] Built target udp_bridge\n'}
+[3.985066] (telemetry_bridge) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[3.986335] (telemetry_bridge) CommandEnded: {'returncode': 2}
+[4.005791] (-) TimerEvent: {}
+[4.047532] (telemetry_bridge) JobEnded: {'identifier': 'telemetry_bridge', 'rc': 2}
+[4.057848] (-) EventReactorShutdown: {}

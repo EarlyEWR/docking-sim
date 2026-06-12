@@ -1,0 +1,162 @@
+[0.010s] Invoking command in '/workspace/build/telemetry_bridge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /workspace/build/telemetry_bridge -- -j16 -l16
+[0.053s] [  9%] Built target gtest_main
+[0.053s] [  9%] Built target telemetry_bridge__cpp
+[0.054s] [  9%] Built target gtest
+[0.054s] [ 17%] Built target telemetry_bridge__rosidl_generator_c
+[0.068s] [ 21%] Built target latency_test
+[0.069s] [ 44%] Built target telemetry_bridge__rosidl_typesupport_introspection_cpp
+[0.069s] [ 44%] Built target telemetry_bridge__rosidl_typesupport_cpp
+[0.069s] [ 44%] Built target telemetry_bridge__rosidl_typesupport_c
+[0.069s] [ 51%] Built target telemetry_bridge__rosidl_typesupport_introspection_c
+[0.070s] [ 59%] Built target telemetry_bridge__rosidl_typesupport_fastrtps_cpp
+[0.086s] [ 67%] Built target telemetry_bridge__rosidl_typesupport_fastrtps_c
+[0.101s] [ 67%] Built target telemetry_bridge
+[0.115s] [ 69%] Built target telemetry_bridge__py
+[0.122s] [ 75%] Built target telemetry_bridge_nodes
+[0.132s] [ 80%] Built target telemetry_bridge__python
+[0.141s] [ 84%] Built target udp_bridge
+[0.148s] [ 96%] Built target telemetry_bridge__rosidl_typesupport_introspection_c__pyext
+[0.148s] [ 96%] Built target telemetry_bridge__rosidl_typesupport_fastrtps_c__pyext
+[0.148s] [ 96%] Built target telemetry_bridge__rosidl_typesupport_c__pyext
+[0.150s] Scanning dependencies of target monitor_test
+[0.161s] [ 98%] Building CXX object CMakeFiles/monitor_test.dir/workspace/src/tests/monitor_test.cpp.o
+[1.600s] [100%] Linking CXX executable monitor_test
+[1.725s] [100%] Built target monitor_test
+[1.734s] Invoked command in '/workspace/build/telemetry_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /workspace/build/telemetry_bridge -- -j16 -l16
+[1.795s] Invoking command in '/workspace/build/telemetry_bridge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /workspace/build/telemetry_bridge
+[1.802s] -- Install configuration: ""
+[1.802s] -- Installing: /workspace/install/telemetry_bridge/share/ament_index/resource_index/rosidl_interfaces/telemetry_bridge
+[1.802s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge
+[1.802s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg
+[1.802s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/rosidl_generator_c__visibility_control.h
+[1.803s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/telemetry_state.h
+[1.803s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/detail
+[1.803s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/detail/latency_stats__type_support.h
+[1.803s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/detail/telemetry_state__functions.c
+[1.803s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/detail/latency_stats__struct.h
+[1.803s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/detail/telemetry_state__struct.h
+[1.803s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/detail/telemetry_state__functions.h
+[1.803s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/detail/latency_stats__functions.h
+[1.803s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/detail/telemetry_state__type_support.h
+[1.803s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/detail/latency_stats__functions.c
+[1.803s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/latency_stats.h
+[1.804s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/environment/library_path.sh
+[1.804s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/environment/library_path.dsv
+[1.804s] -- Installing: /workspace/install/telemetry_bridge/lib/libtelemetry_bridge__rosidl_generator_c.so
+[1.804s] -- Set runtime path of "/workspace/install/telemetry_bridge/lib/libtelemetry_bridge__rosidl_generator_c.so" to ""
+[1.804s] -- Up-to-date: /workspace/install/telemetry_bridge/include/telemetry_bridge
+[1.804s] -- Up-to-date: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg
+[1.804s] -- Up-to-date: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/detail
+[1.804s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/detail/latency_stats__rosidl_typesupport_fastrtps_c.h
+[1.804s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/detail/telemetry_state__rosidl_typesupport_fastrtps_c.h
+[1.804s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.805s] -- Installing: /workspace/install/telemetry_bridge/lib/libtelemetry_bridge__rosidl_typesupport_fastrtps_c.so
+[1.805s] -- Set runtime path of "/workspace/install/telemetry_bridge/lib/libtelemetry_bridge__rosidl_typesupport_fastrtps_c.so" to ""
+[1.805s] -- Up-to-date: /workspace/install/telemetry_bridge/include/telemetry_bridge
+[1.805s] -- Up-to-date: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg
+[1.805s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.805s] -- Up-to-date: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/detail
+[1.805s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/detail/dds_fastrtps
+[1.805s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/detail/latency_stats__rosidl_typesupport_fastrtps_cpp.hpp
+[1.805s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/detail/telemetry_state__rosidl_typesupport_fastrtps_cpp.hpp
+[1.805s] -- Installing: /workspace/install/telemetry_bridge/lib/libtelemetry_bridge__rosidl_typesupport_fastrtps_cpp.so
+[1.806s] -- Set runtime path of "/workspace/install/telemetry_bridge/lib/libtelemetry_bridge__rosidl_typesupport_fastrtps_cpp.so" to ""
+[1.806s] -- Up-to-date: /workspace/install/telemetry_bridge/include/telemetry_bridge
+[1.806s] -- Up-to-date: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg
+[1.806s] -- Up-to-date: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/detail
+[1.806s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/detail/telemetry_state__rosidl_typesupport_introspection_c.h
+[1.806s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/detail/telemetry_state__type_support.c
+[1.806s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/detail/latency_stats__rosidl_typesupport_introspection_c.h
+[1.806s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/detail/latency_stats__type_support.c
+[1.806s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.807s] -- Installing: /workspace/install/telemetry_bridge/lib/libtelemetry_bridge__rosidl_typesupport_introspection_c.so
+[1.807s] -- Set runtime path of "/workspace/install/telemetry_bridge/lib/libtelemetry_bridge__rosidl_typesupport_introspection_c.so" to ""
+[1.807s] -- Installing: /workspace/install/telemetry_bridge/lib/libtelemetry_bridge__rosidl_typesupport_c.so
+[1.807s] -- Set runtime path of "/workspace/install/telemetry_bridge/lib/libtelemetry_bridge__rosidl_typesupport_c.so" to ""
+[1.807s] -- Up-to-date: /workspace/install/telemetry_bridge/include/telemetry_bridge
+[1.807s] -- Up-to-date: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg
+[1.807s] -- Up-to-date: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/detail
+[1.807s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/detail/telemetry_state__traits.hpp
+[1.807s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/detail/telemetry_state__builder.hpp
+[1.807s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/detail/latency_stats__struct.hpp
+[1.808s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/detail/telemetry_state__type_support.hpp
+[1.808s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/detail/telemetry_state__struct.hpp
+[1.808s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/detail/latency_stats__type_support.hpp
+[1.808s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/detail/latency_stats__traits.hpp
+[1.808s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/detail/latency_stats__builder.hpp
+[1.808s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.808s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/telemetry_state.hpp
+[1.808s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/latency_stats.hpp
+[1.808s] -- Up-to-date: /workspace/install/telemetry_bridge/include/telemetry_bridge
+[1.808s] -- Up-to-date: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg
+[1.808s] -- Up-to-date: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/detail
+[1.808s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/detail/latency_stats__type_support.cpp
+[1.809s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/detail/latency_stats__rosidl_typesupport_introspection_cpp.hpp
+[1.809s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/detail/telemetry_state__type_support.cpp
+[1.809s] -- Installing: /workspace/install/telemetry_bridge/include/telemetry_bridge/msg/detail/telemetry_state__rosidl_typesupport_introspection_cpp.hpp
+[1.809s] -- Installing: /workspace/install/telemetry_bridge/lib/libtelemetry_bridge__rosidl_typesupport_introspection_cpp.so
+[1.809s] -- Set runtime path of "/workspace/install/telemetry_bridge/lib/libtelemetry_bridge__rosidl_typesupport_introspection_cpp.so" to ""
+[1.809s] -- Installing: /workspace/install/telemetry_bridge/lib/libtelemetry_bridge__rosidl_typesupport_cpp.so
+[1.809s] -- Set runtime path of "/workspace/install/telemetry_bridge/lib/libtelemetry_bridge__rosidl_typesupport_cpp.so" to ""
+[1.810s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/environment/pythonpath.sh
+[1.810s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/environment/pythonpath.dsv
+[1.810s] -- Installing: /workspace/install/telemetry_bridge/lib/python3.8/site-packages/telemetry_bridge/__init__.py
+[1.826s] Compiling '/workspace/install/telemetry_bridge/lib/python3.8/site-packages/telemetry_bridge/__init__.py'...
+[1.828s] -- Installing: /workspace/install/telemetry_bridge/lib/python3.8/site-packages/telemetry_bridge/msg
+[1.828s] -- Installing: /workspace/install/telemetry_bridge/lib/python3.8/site-packages/telemetry_bridge/msg/__init__.py
+[1.828s] -- Installing: /workspace/install/telemetry_bridge/lib/python3.8/site-packages/telemetry_bridge/msg/_latency_stats_s.c
+[1.828s] -- Installing: /workspace/install/telemetry_bridge/lib/python3.8/site-packages/telemetry_bridge/msg/_telemetry_state_s.c
+[1.828s] -- Installing: /workspace/install/telemetry_bridge/lib/python3.8/site-packages/telemetry_bridge/msg/_telemetry_state.py
+[1.829s] -- Installing: /workspace/install/telemetry_bridge/lib/python3.8/site-packages/telemetry_bridge/msg/_latency_stats.py
+[1.829s] -- Installing: /workspace/install/telemetry_bridge/lib/python3.8/site-packages/telemetry_bridge/telemetry_bridge_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[1.829s] -- Set runtime path of "/workspace/install/telemetry_bridge/lib/python3.8/site-packages/telemetry_bridge/telemetry_bridge_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[1.829s] -- Installing: /workspace/install/telemetry_bridge/lib/python3.8/site-packages/telemetry_bridge/telemetry_bridge_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[1.830s] -- Set runtime path of "/workspace/install/telemetry_bridge/lib/python3.8/site-packages/telemetry_bridge/telemetry_bridge_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[1.830s] -- Installing: /workspace/install/telemetry_bridge/lib/python3.8/site-packages/telemetry_bridge/telemetry_bridge_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[1.830s] -- Set runtime path of "/workspace/install/telemetry_bridge/lib/python3.8/site-packages/telemetry_bridge/telemetry_bridge_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[1.831s] -- Installing: /workspace/install/telemetry_bridge/lib/libtelemetry_bridge__python.so
+[1.831s] -- Set runtime path of "/workspace/install/telemetry_bridge/lib/libtelemetry_bridge__python.so" to ""
+[1.831s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/msg/TelemetryState.idl
+[1.831s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/msg/LatencyStats.idl
+[1.831s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/msg/TelemetryState.msg
+[1.831s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/msg/LatencyStats.msg
+[1.831s] -- Installing: /workspace/install/telemetry_bridge/lib/telemetry_bridge/udp_bridge
+[1.832s] -- Set runtime path of "/workspace/install/telemetry_bridge/lib/telemetry_bridge/udp_bridge" to ""
+[1.832s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/launch
+[1.832s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/launch/bridge_launch.py
+[1.832s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/config
+[1.832s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/config/bridge_params.yaml
+[1.832s] -- Installing: /workspace/install/telemetry_bridge/share/ament_index/resource_index/package_run_dependencies/telemetry_bridge
+[1.832s] -- Installing: /workspace/install/telemetry_bridge/share/ament_index/resource_index/parent_prefix_path/telemetry_bridge
+[1.832s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/environment/ament_prefix_path.sh
+[1.832s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/environment/ament_prefix_path.dsv
+[1.833s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/environment/path.sh
+[1.833s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/environment/path.dsv
+[1.833s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/local_setup.bash
+[1.833s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/local_setup.sh
+[1.833s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/local_setup.zsh
+[1.833s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/local_setup.dsv
+[1.833s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/package.dsv
+[1.833s] -- Installing: /workspace/install/telemetry_bridge/share/ament_index/resource_index/packages/telemetry_bridge
+[1.834s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/cmake/telemetry_bridge__rosidl_generator_cExport.cmake
+[1.834s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/cmake/telemetry_bridge__rosidl_generator_cExport-noconfig.cmake
+[1.834s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/cmake/telemetry_bridge__rosidl_typesupport_introspection_cExport.cmake
+[1.834s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/cmake/telemetry_bridge__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.834s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/cmake/telemetry_bridge__rosidl_typesupport_cExport.cmake
+[1.834s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/cmake/telemetry_bridge__rosidl_typesupport_cExport-noconfig.cmake
+[1.834s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/cmake/telemetry_bridge__rosidl_generator_cppExport.cmake
+[1.835s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/cmake/telemetry_bridge__rosidl_typesupport_introspection_cppExport.cmake
+[1.835s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/cmake/telemetry_bridge__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.835s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/cmake/telemetry_bridge__rosidl_typesupport_cppExport.cmake
+[1.835s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/cmake/telemetry_bridge__rosidl_typesupport_cppExport-noconfig.cmake
+[1.835s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/cmake/rosidl_cmake-extras.cmake
+[1.835s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.835s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/cmake/ament_cmake_export_libraries-extras.cmake
+[1.835s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/cmake/ament_cmake_export_targets-extras.cmake
+[1.835s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.836s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.836s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.836s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/cmake/telemetry_bridgeConfig.cmake
+[1.836s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/cmake/telemetry_bridgeConfig-version.cmake
+[1.836s] -- Installing: /workspace/install/telemetry_bridge/share/telemetry_bridge/package.xml
+[1.838s] Invoked command in '/workspace/build/telemetry_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /workspace/build/telemetry_bridge

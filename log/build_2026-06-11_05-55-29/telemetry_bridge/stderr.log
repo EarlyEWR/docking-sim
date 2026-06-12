@@ -1,0 +1,48 @@
+In file included from /workspace/src/UdpBridgeNode.cpp:1:
+/workspace/src/telemetry_bridge/../include/telemetry_bridge/UdpBridgeNode.hpp:16:36: error: expected class-name before ‘:’ token
+   16 | class UdpBridgeNode : public rclcpp:Node {
+      |                                    ^
+/workspace/src/telemetry_bridge/../include/telemetry_bridge/UdpBridgeNode.hpp:16:36: error: expected ‘{’ before ‘:’ token
+/workspace/src/telemetry_bridge/../include/telemetry_bridge/UdpBridgeNode.hpp:16:36: error: expected unqualified-id before ‘:’ token
+/workspace/src/UdpBridgeNode.cpp:4:30: error: invalid use of incomplete type ‘class telemetry_bridge::UdpBridgeNode’
+    4 | UdpBridgeNode::UdpBridgeNode()
+      |                              ^
+In file included from /workspace/src/UdpBridgeNode.cpp:1:
+/workspace/src/telemetry_bridge/../include/telemetry_bridge/UdpBridgeNode.hpp:16:7: note: forward declaration of ‘class telemetry_bridge::UdpBridgeNode’
+   16 | class UdpBridgeNode : public rclcpp:Node {
+      |       ^~~~~~~~~~~~~
+/workspace/src/UdpBridgeNode.cpp:25:31: error: invalid use of incomplete type ‘class telemetry_bridge::UdpBridgeNode’
+   25 | UdpBridgeNode::~UdpBridgeNode()
+      |                               ^
+In file included from /workspace/src/UdpBridgeNode.cpp:1:
+/workspace/src/telemetry_bridge/../include/telemetry_bridge/UdpBridgeNode.hpp:16:7: note: forward declaration of ‘class telemetry_bridge::UdpBridgeNode’
+   16 | class UdpBridgeNode : public rclcpp:Node {
+      |       ^~~~~~~~~~~~~
+/workspace/src/UdpBridgeNode.cpp:33:101: error: invalid use of incomplete type ‘class telemetry_bridge::UdpBridgeNode’
+   33 | void UdpBridgeNode::handle_outgoing_state(const telemetry_bridge::msg::TelemetryState::SharedPtr msg)
+      |                                                                                                     ^
+In file included from /workspace/src/UdpBridgeNode.cpp:1:
+/workspace/src/telemetry_bridge/../include/telemetry_bridge/UdpBridgeNode.hpp:16:7: note: forward declaration of ‘class telemetry_bridge::UdpBridgeNode’
+   16 | class UdpBridgeNode : public rclcpp:Node {
+      |       ^~~~~~~~~~~~~
+/workspace/src/UdpBridgeNode.cpp:38:6: error: ‘UdpBrideNode’ has not been declared
+   38 | void UdpBrideNode::receive_loop(){}
+      |      ^~~~~~~~~~~~
+/workspace/src/UdpBridgeNode.cpp:40:104: error: invalid use of incomplete type ‘class telemetry_bridge::UdpBridgeNode’
+   40 | std::vector<uint8_t> UdpBridgeNode::serialize_state(const telemetry_bridge::msg::TelemetryState & msg) const
+      |                                                                                                        ^~~~~
+In file included from /workspace/src/UdpBridgeNode.cpp:1:
+/workspace/src/telemetry_bridge/../include/telemetry_bridge/UdpBridgeNode.hpp:16:7: note: forward declaration of ‘class telemetry_bridge::UdpBridgeNode’
+   16 | class UdpBridgeNode : public rclcpp:Node {
+      |       ^~~~~~~~~~~~~
+/workspace/src/UdpBridgeNode.cpp:49:54: error: invalid use of incomplete type ‘class telemetry_bridge::UdpBridgeNode’
+   49 |     telemetry_bridge::msg::TelemetryState & out_msg) const
+      |                                                      ^~~~~
+In file included from /workspace/src/UdpBridgeNode.cpp:1:
+/workspace/src/telemetry_bridge/../include/telemetry_bridge/UdpBridgeNode.hpp:16:7: note: forward declaration of ‘class telemetry_bridge::UdpBridgeNode’
+   16 | class UdpBridgeNode : public rclcpp:Node {
+      |       ^~~~~~~~~~~~~
+make[2]: *** [CMakeFiles/telemetry_bridge_nodes.dir/build.make:76: CMakeFiles/telemetry_bridge_nodes.dir/workspace/src/UdpBridgeNode.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:303: CMakeFiles/telemetry_bridge_nodes.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

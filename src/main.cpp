@@ -1,7 +1,6 @@
 #include "rclcpp/rclcpp.hpp"
-#include "include/telemetry_bridge/UdpBridgeNode.hpp"
-#include "include/telemetry_bridge/StateMonitorNode.hpp"
-
+#include "telemetry_bridge/StateMonitorNode.hpp"
+#include "telemetry_bridge/UdpBridgeNode.hpp"
 
 int main(int argc, char * argv[])
 {
@@ -14,7 +13,7 @@ int main(int argc, char * argv[])
 
     executor.add_node(udp_node);
     executor.add_node(monitor_node);
-    
+
     executor.spin();
 
     rclcpp::shutdown();

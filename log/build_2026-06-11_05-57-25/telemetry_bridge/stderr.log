@@ -1,0 +1,7 @@
+/workspace/src/tests/monitor_test.cpp:1:5: error: expected constructor, destructor, or type conversion before ‘(’ token
+    1 | TEST(StateMonitorTest, DetectsGapsAndStalePackets)
+      |     ^
+make[2]: *** [CMakeFiles/monitor_test.dir/build.make:63: CMakeFiles/monitor_test.dir/workspace/src/tests/monitor_test.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/monitor_test.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

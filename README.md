@@ -1,4 +1,4 @@
-# Pillar Project 1
+# Docking Simulation with Multi-modal Agentic AI & ROS2
 
 ## Build & Run Commands
 - cd /scripts

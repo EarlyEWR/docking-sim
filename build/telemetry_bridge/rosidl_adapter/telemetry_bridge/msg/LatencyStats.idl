@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from telemetry_bridge/../msg/LatencyStats.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module telemetry_bridge {
+  module msg {
+    @verbatim (language="comment", text=
+      " Standard ROS2 header for timestamping statistics")
+    struct LatencyStats {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " Mean (average) processing latency in milliseconds")
+      double mean_ms;
+
+      @verbatim (language="comment", text=
+        " 95th percentile latency")
+      double p95_ms;
+
+      @verbatim (language="comment", text=
+        " 99th percentile latency")
+      double p99_ms;
+
+      @verbatim (language="comment", text=
+        " Maximum observed latency in this sample window")
+      double max_ms;
+    };
+  };
+};

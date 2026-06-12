@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from telemetry_bridge/../msg/TelemetryState.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module telemetry_bridge {
+  module msg {
+    @verbatim (language="comment", text=
+      " Standard ROS2 header for synchronization and latency tracking")
+    struct TelemetryState {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " 3D Position components in meters")
+      double x;
+
+      double y;
+
+      double z;
+
+      @verbatim (language="comment", text=
+        " 3D Velocity components in meters per second")
+      double vx;
+
+      double vy;
+
+      double vz;
+
+      @verbatim (language="comment", text=
+        " Sequence number to detect out-of-order UDP packets or gaps")
+      uint64 sequence_id;
+    };
+  };
+};

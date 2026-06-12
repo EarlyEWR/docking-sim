@@ -1,0 +1,20 @@
+-- run_test.py: invoking following command in '/workspace/build/telemetry_bridge':
+ - /workspace/build/telemetry_bridge/latency_test --gtest_output=xml:/workspace/build/telemetry_bridge/test_results/telemetry_bridge/latency_test.gtest.xml
+
+[==========] Running 2 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 2 tests from LatencyTest
+[ RUN      ] LatencyTest.MathVerification
+[       OK ] LatencyTest.MathVerification (0 ms)
+[ RUN      ] LatencyTest.ConcurrencyBurst
+[       OK ] LatencyTest.ConcurrencyBurst (2 ms)
+[----------] 2 tests from LatencyTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test case ran. (2 ms total)
+[  PASSED  ] 2 tests.
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/workspace/build/telemetry_bridge/test_results/telemetry_bridge/latency_test.gtest.xml'
+-- run_test.py: verify result file '/workspace/build/telemetry_bridge/test_results/telemetry_bridge/latency_test.gtest.xml'
