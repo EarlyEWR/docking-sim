@@ -1,0 +1,6 @@
+/**:
+  ros__parameters:
+    # Offset from Armstrong center-of-mass to top docking hatch (meters, body frame, +Z = up)
+    armstrong_docking_hatch_offset: [0.0, 0.0, 1.8]
+    # Offset from Edison center-of-mass to docking port (meters, body frame)
+    docking_port_offset: [0.0, 0.0, 0.0]

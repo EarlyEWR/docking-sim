@@ -15,3 +15,4 @@ float64 vz
 uint64 sequence_id
 
 # Full 6-DOF pose: position (mirrors x/y/z above) + orientation quaternion
+geometry_msgs/Pose pose

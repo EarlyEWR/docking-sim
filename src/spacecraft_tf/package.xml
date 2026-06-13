@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+    <name>spacecraft_tf</name>
+    <version>0.0.1</version>
+    <description>TF2 frame broadcaster for Armstrong and Edison spacecraft.</description>
+    <maintainer email="evanrowlands98@gmail.com">spacecraft-tf</maintainer>
+    <license>MIT</license>
+
+    <buildtool_depend>ament_cmake</buildtool_depend>
+
+    <depend>rclcpp</depend>
+    <depend>tf2_ros</depend>
+    <depend>geometry_msgs</depend>
+    <depend>telemetry_bridge</depend>
+
+    <export>
+        <build_type>ament_cmake</build_type>
+    </export>
+</package>
